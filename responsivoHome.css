@@ -1,0 +1,86 @@
+@media screen and (max-width:1400px){
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 0.5rem;
+    }
+
+    .btn,
+    .btn-outline-success {
+        width: 100%; /* Faça os botões ocuparem toda a largura */
+    }
+
+    .button{ 
+        position: relative;
+        top: unset;
+        left: unset;
+        transform: unset;
+        margin-top: 50px;
+        font-size: unset;
+    }
+    .buttom{ 
+        position: relative;
+        top: unset;
+        right: unset;
+        transform: unset;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: unset;
+    }
+
+    footer{
+        text-align: center;
+        margin: 0px;
+    }
+
+    .navbar-toggler {
+        margin: 0;
+    }
+}
+
+/* viewport-480px */
+
+@media screen and (max-width:480px){
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 0.5rem;
+    }
+
+    .btn,
+    .btn-outline-success {
+        width: 100%; /* Faça os botões ocuparem toda a largura */
+    }
+    .button{ 
+        position: relative;
+        top: unset;
+        left: unset;
+        transform: unset;
+        margin-top: 30px;
+        font-size: unset;
+    }
+    .buttom{ 
+        position: relative;
+        top: unset;
+        right: unset;
+        transform: unset;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: unset;
+    }
+
+    footer{
+        text-align: center; 
+        margin: 0px;
+    }
+
+    .navbar-toggler {
+        margin: 0;
+    }
+}

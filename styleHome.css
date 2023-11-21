@@ -1,0 +1,120 @@
+*{font-family: 'Roboto', sans-serif;}
+body{background-color: #1b3858;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navbar */
+.navbar{
+    border-radius: 5px;
+    margin: 0px;
+}
+.navbar-brand,
+.navbar-nav .nav-link{
+    color: #000000;
+    transition: color 0.3s;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus{
+    color: #ffffff;
+    background-color: transparent;
+}
+.navbar-toggler{border: #fff;}
+.navbar-toggler-icon{background-color: #EAA800;}
+
+.btn{
+    background-color: #333;
+    border: none;
+    color: #fff;
+    transition: background-color 0.2s, color 0.3s;
+}
+.btn:hover,
+.btnc:focus{
+    background-color: #555;
+    color: #fff;
+}
+.btn-outline-success{
+    color: #333;
+    border-color: #333;
+    background-color: transparent;
+}
+/* fim navbar */
+/*fOOTER */
+footer{grid-area: footer;}
+
+footer{
+    background-color: #3F00C3;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-section{
+    flex: 1;
+    padding: 5px;
+    max-width: 300px;
+}
+.footer-section ul{list-style: none;}
+.footer-section ul li a{color: #2d2d2d; text-decoration: none; text-align: center;}
+.footer-section ul li a:hover{color: #2d2d2d; text-decoration: underline; text-align: center;}
+.footer-bottom{text-align: center;}
+
+.author-email{font-size: 16px; color: #ffffff; text-decoration: none;}
+.author-email:hover{color: #ffffff; text-decoration: underline;}
+/* fim do footer */
+
+.imagem-container{
+    position: relative;
+    text-align: center; /* Para centralizar o botão horizontalmente */
+    display: inline-block;
+}
+.imagem{
+    width: 100%; /* Garante que a imagem ocupe toda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove margens brancas indesejadas quando a imagem é exibida como inline */
+}
+.button{
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    padding: 20px 90px;
+    font-size: 25px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.5s, color 0.5s;
+}
+.button:hover,
+
+.button:focus{
+    background-color: #3F00C3;
+    color: #fff;
+}
+
+.buttom{
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translate(-50%, -50%);
+    padding: 20px 90px;
+    font-size: 25px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #000000;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.buttom:hover,
+
+.buttom:focus{
+    background-color: #3F00C3;
+    color: #fff;
+}

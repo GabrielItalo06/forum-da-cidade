@@ -1,0 +1,65 @@
+/* Media query para telas menores (como smartphones) */
+  @media screen and (max-width: 1500px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .titulo {
+      font-size: 20px;
+    }
+  
+    .subtitulo-banner {
+      font-size: 14px;
+    }
+  
+    .conteudo-origem1,
+    .conteudo-origem2,
+    .conteudo-origem3,
+    .conteudo-origem4,
+    .conteudo-manifesto p,
+    .valores-fundamentais p,
+    .objetivos-metas p,
+    .publico p,
+    .participar p {
+      font-size: 14px;
+    }
+  
+    .sub-hist1 h5,
+    .sub-hist2 h5,
+    .sub-mani h5 {
+      font-size: 12px;
+    }
+  
+    .titulo-manifesto,
+    .valores,
+    .objetivos-metas h1,
+    .publico h1,
+    .participar h1 {
+      font-size: 20px;
+    }
+  
+    .fim-carta,
+    .referencias p {
+      font-size: 12px;
+    }
+
+    .image-1,
+    .img-hist1,
+    .imag-mani {
+      max-width: 100%;
+      height: auto;
+    }
+    .img-hist2{
+      max-width: 100%;
+      height: auto;
+      margin-left: auto;
+    margin-right: auto;
+    }
+
+    .origem-historico{
+        display:block;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+  
